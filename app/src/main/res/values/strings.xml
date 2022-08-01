@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Walk-In-Walk-Out</string>
+    <string name="home_fragment_toolbar_text">Good morning, Pranav</string>
+    <string name="home_fragment_text_1">Please go to the nearest Walk in, walk out store.
+</string>
+    <string name="home_fragment_text_2">Location and hours</string>
+    <string name="home_fragment_text_3">Active Payment</string>
+    <string name="home_fragment_text_4">Visa-2317</string>
+    <string name="home_fragment_button_1_text">Enter store</string>
+    <string name="home_fragment_button_2_text">Change</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="receipt_fragment">ReceiptScreen</string>
+    <string name="qr_shop">Shop</string>
+    <string name="qr_text_2">1701 Santa Rita Rd</string>
+    <string name="qr_text_3">Scan the first shopper using this QR code.</string>
+    <string name="qr_text_4">Time to scan first shopper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="qr_text_5">1:00 min</string>
+    <string name="qr_text_6">Active Payment</string>
+    <string name="qr_text_7">Visa-2317</string>
+    <string name="finished_text_1">Session finished!</string>
+    <string name="finished_text_2">Thank you for shopping with us.</string>
+    <string name="finished_text_3">Total spent</string>
+    <string name="finished_text_4">$46.27</string>
+    <string name="finished_text_5">Items bought</string>
+    <string name="finished_text_6">6</string>
+    <string name="finished_text_7">Number of shoppers</string>
+    <string name="finished_text_8">4</string>
+    <string name="finished_text_9">Time spent in store this session</string>
+    <string name="finished_text_10">12 min</string>
+    <string name="finished_text_11">View today\u00E2\u0080\u0099s receipt</string>
+    <string name="finished_text_12">Give us feedback</string>
+
+
+
+
+
+
+
+
 </resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.qrScreenFragment.QrFragment">
+
+    <TextView
+        android:id="@+id/tv_qr_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="41dp"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/qr_shop"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:translationY="-1.09sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_qr_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/qr_text_2"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:translationY="-1.09sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_qr_1" />
+
+    <ImageView
+        android:id="@+id/iv_qr_image"
+        android:layout_width="218dp"
+        android:layout_height="218dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/qr_image"
+        android:clipToOutline="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_qr_2" />
+
+    <TextView
+        android:id="@+id/tv_qr_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+        android:text="@string/qr_text_3"
+        android:textColor="@color/grey"
+        android:lineSpacingExtra="2sp"
+        android:translationY="-1.09sp"
+        android:gravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_qr_image" />
+
+    <TextView
+        android:id="@+id/tv_qr_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qr_text_4"
+        android:textSize="16sp"
+        android:textColor="@color/red"
+        android:lineSpacingExtra="2sp"
+        android:layout_marginTop="103dp"
+        android:layout_marginStart="16dp"
+        android:translationY="-1.09sp"
+        android:gravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_qr_3" />
+
+    <TextView
+        android:id="@+id/tv_qr_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qr_text_5"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:lineSpacingExtra="-8sp"
+        android:gravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_qr_4" />
+
+    <TextView
+        android:id="@+id/tv_qr_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qr_text_6"
+        android:lineSpacingExtra="2sp"
+        android:translationY="-1.09sp"
+        android:gravity="top"
+        android:layout_marginTop="32dp"
+        android:textSize="16dp"
+        android:textColor="@color/red"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_qr_5" />
+
+    <TextView
+        android:id="@+id/tv_qr_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qr_text_7"
+        android:lineSpacingExtra="-8sp"
+        android:layout_marginStart="16dp"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_qr_6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
